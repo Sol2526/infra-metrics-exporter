@@ -1,0 +1,25 @@
+# Node
+node_modules/
+npm-debug.log
+.env
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+.crash
+override.tf
+override.tf.json
+terraform.rc
+
+# Docker
+Dockerfile*
+.dockerignore
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
